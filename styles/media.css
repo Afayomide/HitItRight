@@ -1,0 +1,87 @@
+@media (max-width: 1000px){
+   .nav-items{
+       position: fixed;
+      bottom: 3px;
+      display: flex;
+      flex-direction: column;
+   background-color: black;
+   padding: 20px;
+   border-radius: 20px;
+   max-width: 90%;
+   margin: 0 25%;
+   left:0;
+   right:0;
+   }
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-text{
+    display: none;
+}
+.padlock{
+    font-size: 15px;
+    padding: 0 15px;
+}
+.promo{
+    font-size: 20px;
+}
+.typing{
+    font-size: 12px;
+}
+.header{
+    font-size: 20px;
+}
+.aboutbook{
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+.bookcover{
+    width:250px;
+    height: 300px;
+}
+footer{
+    margin: 20px 0;
+    padding-bottom: 50px;
+}
+}
+@media (max-width: 450px){
+    .padlock{
+        padding: 0 15px;
+    }
+    .header{
+        font-size: 13px
+    }
+ .typing{
+     font-size: 9px;
+ }
+ .aboutbook{
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+.bookcover{
+    width:100px;
+    height: 100px;
+}
+.aboutbook ul {
+    display: flex;
+    flex-direction: column;
+}
+.aboutbook ul li{
+    margin-bottom: 10px;
+    font-size: small;
+}
+.promo{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.procast{
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+}
+} 
