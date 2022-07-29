@@ -70,6 +70,7 @@ h2 a {
     margin: 15px 0;
 }
 .indent{
+    word-spacing: 5px;
     text-indent: 30px;
 }
 .facebook{
@@ -122,6 +123,7 @@ h2 a {
         margin-bottom: 10px;
     }
 .hurry{
+    margin: 40px 0;
     color: red;
 }
 .promoimg{
@@ -144,7 +146,7 @@ h2 a {
     background-color: red;
     color: white;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 20px;
 }
 footer{
