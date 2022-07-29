@@ -21,7 +21,7 @@
     display: none;
 }
 .padlock{
-    font-size: 15px;
+    font-size: 18px;
     padding: 0 15px;
 }
 .promo{
@@ -58,6 +58,8 @@ footer{
      font-size: 9px;
  }
  .aboutbook{
+    display: flex;
+    flex-direction: row-reverse;
     padding: 10px;
     color: black;
     background-color: white;
@@ -83,5 +85,9 @@ footer{
     border-radius: 15px;
     margin-top: 20px;
     padding: 10px;
+}
+.get-ahead{
+    margin-top: 30px;
+    font-size: 20px;
 }
 } 
