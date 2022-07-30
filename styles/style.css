@@ -112,6 +112,26 @@ h2 a {
     color: red;
    text-decoration: underline;
 }
+.my-pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.my-pictures p {
+    font-weight: 900;
+    text-decoration: underline;
+    margin: 40px 0 10px 0;
+}
+.gym img{
+width: 150px;
+height: 300px;
+}
+.physiologist img{
+    width: 100px;
+    height: 200px;
+}
 .bookcover{
     width: 300px;
     height: 300px;
