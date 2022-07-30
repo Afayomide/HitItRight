@@ -13,6 +13,8 @@ html{
     box-sizing: border-box;
     outline: none;
 }
+
+
 /* for nav */
 body{
     width: 100%;
@@ -55,27 +57,6 @@ ul{
 h2 a {
     color: white;
 }
-/*end of nav */
-.padlock{
-    padding: 0 20%;
-    font-size: 30px;
-    word-spacing: 2px;
-}
-.headlist{
-    font-size: 15px !important;
-    font-weight: 900;
-}
-.h2{
-    text-align: center;
-    margin: 15px 0;
-}
-.indent{
-    word-spacing: 5px;
-    text-indent: 30px;
-}
-.facebook{
-    color: blue;
-}
 .typing{
     padding:72px 0 5px 0;
     background-color: rgb(99, 99, 159);
@@ -87,6 +68,9 @@ h2 a {
     color: #ffffff;
     font-weight: 900;
 }
+
+
+/*first-container*/
 .aboutbook{
     position: relative;
     bottom: 20px;
@@ -108,6 +92,31 @@ h2 a {
         background-position: 0% 50%;
     }
 }
+.padlock{
+    padding: 0 20%;
+    font-size: 30px;
+    word-spacing: 2px;
+}
+.bookcover{
+    width: 300px;
+    height: 300px;
+}
+.headlist{
+    font-size: 15px !important;
+    font-weight: 900;
+}
+.h2{
+    text-align: center;
+    margin: 15px 0;
+}
+.indent{
+    word-spacing: 5px;
+    text-indent: 30px;
+}
+.facebook{
+    color: blue;
+}
+
 .amazon{
     color: red;
    text-decoration: underline;
@@ -132,10 +141,7 @@ height: 300px;
     width: 100px;
     height: 200px;
 }
-.bookcover{
-    width: 300px;
-    height: 300px;
-}
+
 .contents{
     text-align: center;
 }
@@ -169,6 +175,8 @@ height: 300px;
     margin-top: 40px;
     padding: 20px;
 }
+
+/* footer */
 footer{
     border-top: black solid 2px ;
 }
